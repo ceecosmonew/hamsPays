@@ -24,7 +24,7 @@ function App() {
   ];
   const levelMinPoints =[
 
-100, //Bronze
+1000, //Bronze
 5000, //Silver
 25000, //Gold
 100000, //Platinum
@@ -37,11 +37,11 @@ function App() {
 ];
 
 const [levelIndex, setLevelIndex] =useState(0);
-const [points, setPoints] = useState(5000);
+const [points, setPoints] = useState(1000);
 const [clicks, setClicks] = useState<{id: number, x: number, y: number }[]>
 ([]);
 const pointsToAdd = 11;
-const profitPerHour = 126420;
+const profitPerHour = 1420;
 
 const [dailyRewardTimeLeft, setdailyRewardTimeLeft] = useState("");
 const [dailyCipherTimeLeft, setdailyCipherTimeLeft] = useState("");
