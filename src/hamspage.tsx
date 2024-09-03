@@ -2,8 +2,8 @@
 function hamspage() {
   return (
     <div className="gen">
-    <h4 className="text-center">This is HamsPay official Page with Airdrop</h4>
-    <h5 className="text-center">Share the link to your friends: you will be rewarded with 5,000 $HamsPay for each referral</h5>
+    <h4 className="pp text-center">This is HamsPay official Page with Airdrop</h4>
+    <h5 className="pp text-center">Share the link to your friends: you will be rewarded with 5,000 $HamsPay for each referral</h5>
   
   <br></br>
   <div className="container fluid">
