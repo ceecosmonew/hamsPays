@@ -24,7 +24,7 @@ function App() {
   ];
   const levelMinPoints =[
 
-0, //Bronze
+100, //Bronze
 5000, //Silver
 25000, //Gold
 100000, //Platinum
@@ -36,8 +36,8 @@ function App() {
 1000000000 //Lord
 ];
 
-const [levelIndex, setLevelIndex] =useState(6);
-const [points, setPoints] = useState(22749365);
+const [levelIndex, setLevelIndex] =useState(0);
+const [points, setPoints] = useState(5000);
 const [clicks, setClicks] = useState<{id: number, x: number, y: number }[]>
 ([]);
 const pointsToAdd = 11;
