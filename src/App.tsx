@@ -41,7 +41,7 @@ const [points, setPoints] = useState(1000);
 const [clicks, setClicks] = useState<{id: number, x: number, y: number }[]>
 ([]);
 const pointsToAdd = 11;
-const profitPerHour = 1420;
+const profitPerHour = 10420;
 
 const [dailyRewardTimeLeft, setdailyRewardTimeLeft] = useState("");
 const [dailyCipherTimeLeft, setdailyCipherTimeLeft] = useState("");
